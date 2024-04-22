@@ -106,18 +106,20 @@
         </div>
     </nav>
     <!-- END nav -->
-
-    <section class="home-slider owl-carousel">
-        <div class="slider-item" style="background-image: url(images/bg_1.jpg)" data-stellar-background-ratio="0.5">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-end"
-                    data-scrollax-parent="true">
-                    <div class="col-md-6 text ftco-animate">
+    <section class="home-slider owl-carousel" style="position: relative; overflow: hidden;">
+        <!-- First Slider Item -->
+        <div class="slider-item"
+            style="background-image: url(images/bg_1.jpg); height: 100vh; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; text-align: center; overflow-y: auto;">
+            <!-- Overlay for background -->
+            <div class="overlay"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+            </div>
+            <!-- Content Container -->
+            <div class="container" style="z-index: 1; color: #fff;">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-8 text-center ftco-animate">
                         <h1 class="mb-4">Providing Quality Healthcare</h1>
-                        <h3 class="subheading">
-                            Every Day We Bring Hope and Healing to the Community
-                        </h3>
+                        <h3 class="subheading">Every Day We Bring Hope and Healing to the Community</h3>
                         <p>
                             <a href="{{ url('about') }}" class="btn btn-danger px-4 py-3 mt-3">Learn More</a>
                         </p>
@@ -125,16 +127,20 @@
                 </div>
             </div>
         </div>
-        <div class="slider-item" style="background-image: url(images/bg_2.jpg)">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-end"
-                    data-scrollax-parent="true">
-                    <div class="col-md-6 text ftco-animate">
+
+        <!-- Second Slider Item -->
+        <div class="slider-item"
+            style="background-image: url(images/bg_2.jpg); height: 100vh; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; text-align: center; overflow-y: auto;">
+            <!-- Overlay for background -->
+            <div class="overlay"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+            </div>
+            <!-- Content Container -->
+            <div class="container" style="z-index: 1; color: #fff;">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-8 text-center ftco-animate">
                         <h1 class="mb-4">Your Health is Our Priority</h1>
-                        <h3 class="subheading">
-                            Providing Comprehensive and Affordable Medical Services
-                        </h3>
+                        <h3 class="subheading">Providing Comprehensive and Affordable Medical Services</h3>
                         <p>
                             <a href="{{ url('department') }}" class="btn btn-danger px-4 py-3 mt-3">Explore Services</a>
                         </p>
@@ -143,6 +149,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
         <div class="container">
@@ -408,7 +415,6 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
 </body>
