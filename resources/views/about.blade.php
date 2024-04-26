@@ -10,7 +10,7 @@
     <meta name="keywords"
         content="hospital, medical facility, healthcare, Busia hospital, St James Infirmary, private hospital, level 3B hospital" />
     <meta name="author" content="St James Infirmary Busia Ltd" />
-
+    <link rel="shortcut icon" type="image/x-icon" href="images\St.-James-Logo-white.ico">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />

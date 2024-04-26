@@ -5,7 +5,7 @@
     <title>Contact US - St James Infirmary Busia Ltd</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <link rel="shortcut icon" type="image/x-icon" href="images\St.-James-Logo-white.ico">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
@@ -100,7 +100,8 @@
                             <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                            <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                required>
                         </div>
                         <div class="form-group">
                             <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>

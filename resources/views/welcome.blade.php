@@ -8,7 +8,7 @@
     <meta name="description"
         content="St. James Infirmary Busia offers quality, acceptable, and affordable healthcare services in Busia, Western Kenya." />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <link rel="shortcut icon" type="image/x-icon" href="images\St.-James-Logo-white.ico">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />

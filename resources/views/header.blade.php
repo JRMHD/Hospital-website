@@ -2,8 +2,11 @@
     <div class="container">
         <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
             <div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
-                <a class="navbar-brand" href="{{ url('welcome') }}">St. James Infirmary</a>
+                <a class="navbar-brand" href="{{ url('welcome') }}">
+                    <img src="images/St. James Logo white.png" alt="St. James Infirmary Logo" style="max-height: 70px;">
+                </a>
             </div>
+
             <div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
                 <div class="icon d-flex justify-content-center align-items-center order-md-last">
                     <span class="icon-map"></span>

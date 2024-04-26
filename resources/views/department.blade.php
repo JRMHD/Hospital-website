@@ -5,7 +5,7 @@
     <title>Treatment - St James Infirmary Busia Ltd</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <link rel="shortcut icon" type="image/x-icon" href="images\St.-James-Logo-white.ico">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />

@@ -30,15 +30,13 @@
             </div>
             <div class="row">
                 <div class="col-sm" style="margin-bottom: 20px">
-                    <a href="{{ url('welcome') }}" class="footer-logo"
-                        style="
-                  font-size: 24px;
-                  font-weight: 700;
-                  color: #fff;
-                  text-decoration: none;
-                ">St.
-                        James Infirmary Busia
-                    </a>
+                    <div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
+                        <a class="navbar-brand" href="{{ url('welcome') }}">
+                            <img src="images/St. James Logo white.png" alt="St. James Infirmary Logo"
+                                style="max-height: 70px;">
+                        </a>
+                    </div>
+
                     <p class="description" style="color: #ccc; font-size: 16px; margin-top: 10px">
                         Providing compassionate healthcare services.
                     </p>
